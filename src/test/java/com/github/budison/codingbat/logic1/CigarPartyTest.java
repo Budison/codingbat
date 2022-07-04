@@ -6,14 +6,17 @@ import org.testng.asserts.SoftAssert;
 public class CigarPartyTest {
     @Test
     void testCigarParty() {
+        // Given
         SoftAssert softAssert = new SoftAssert();
 
+        // When
         softAssert.assertEquals(CigarParty.cigarParty(50, true), true);
         softAssert.assertEquals(CigarParty.cigarParty(39, true), false);
         softAssert.assertEquals(CigarParty.cigarParty(41, false), true);
         softAssert.assertEquals(CigarParty.cigarParty(59, false), true);
         softAssert.assertEquals(CigarParty.cigarParty(61, false), false);
 
+        // Then
         softAssert.assertAll();
     }
 }
