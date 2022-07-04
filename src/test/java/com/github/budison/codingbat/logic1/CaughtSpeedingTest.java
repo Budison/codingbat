@@ -7,6 +7,7 @@ public class CaughtSpeedingTest {
     @Test
     void testCaughtSpeeding() {
         SoftAssert softAssert = new SoftAssert();
+
         softAssert.assertEquals(CaughtSpeeding.caughtSpeeding(86, true), 2);
         softAssert.assertEquals(CaughtSpeeding.caughtSpeeding(67, true), 1);
         softAssert.assertEquals(CaughtSpeeding.caughtSpeeding(65, true), 0);

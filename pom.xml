@@ -20,7 +20,7 @@
         <maven.compiler.encoding>${project.build.sourceEncoding}</maven.compiler.encoding>
         <maven.resources.encoding>${project.build.sourceEncoding}</maven.resources.encoding>
 
-        <version.dependency.testng>7.5</version.dependency.testng>
+        <version.dependency.testng>7.6.0</version.dependency.testng>
         <version.dependency.tinylog.api>2.4.1</version.dependency.tinylog.api>
         <version.dependency.tinylog.impl>2.4.1</version.dependency.tinylog.impl>
 
@@ -78,21 +78,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>${version.plugin.maven.jar}</version>
-                <configuration>
-                    <archive>
-                        <index>true</index>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                            <classpathPrefix>libs/</classpathPrefix>
-                            <mainClass>com.github.budison.codingbat.Main</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
