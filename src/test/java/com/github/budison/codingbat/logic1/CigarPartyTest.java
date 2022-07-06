@@ -10,11 +10,11 @@ public class CigarPartyTest {
         SoftAssert softAssert = new SoftAssert();
 
         // When
-        softAssert.assertEquals(CigarParty.cigarParty(50, true), true);
-        softAssert.assertEquals(CigarParty.cigarParty(39, true), false);
-        softAssert.assertEquals(CigarParty.cigarParty(41, false), true);
-        softAssert.assertEquals(CigarParty.cigarParty(59, false), true);
-        softAssert.assertEquals(CigarParty.cigarParty(61, false), false);
+        softAssert.assertTrue(CigarParty.cigarParty(50, true));
+        softAssert.assertFalse(CigarParty.cigarParty(39, true));
+        softAssert.assertTrue(CigarParty.cigarParty(41, false));
+        softAssert.assertTrue(CigarParty.cigarParty(59, false));
+        softAssert.assertFalse(CigarParty.cigarParty(61, false));
 
         // Then
         softAssert.assertAll();

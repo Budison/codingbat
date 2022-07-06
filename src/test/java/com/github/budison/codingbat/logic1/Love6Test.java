@@ -10,12 +10,12 @@ public class Love6Test {
         SoftAssert softAssert = new SoftAssert();
 
         // When
-        softAssert.assertEquals(Love6.love6(1, 5), true);
-        softAssert.assertEquals(Love6.love6(0, 5), false);
-        softAssert.assertEquals(Love6.love6(1, 7), true);
-        softAssert.assertEquals(Love6.love6(16, 10), true);
-        softAssert.assertEquals(Love6.love6(26, 10), false);
-        softAssert.assertEquals(Love6.love6(-6, 0), true);
+        softAssert.assertTrue(Love6.love6(1, 5));
+        softAssert.assertFalse(Love6.love6(0, 5));
+        softAssert.assertTrue(Love6.love6(1, 7));
+        softAssert.assertTrue(Love6.love6(16, 10));
+        softAssert.assertFalse(Love6.love6(26, 10));
+        softAssert.assertTrue(Love6.love6(-6, 0));
 
         // Then
         softAssert.assertAll();

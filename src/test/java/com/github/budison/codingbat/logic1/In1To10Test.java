@@ -10,19 +10,19 @@ public class In1To10Test {
         SoftAssert softAssert = new SoftAssert();
 
         // When
-        softAssert.assertEquals(In1To10.in1To10(1, false), true);
-        softAssert.assertEquals(In1To10.in1To10(5, false), true);
-        softAssert.assertEquals(In1To10.in1To10(10, false), true);
-        softAssert.assertEquals(In1To10.in1To10(0, false), false);
-        softAssert.assertEquals(In1To10.in1To10(-1, false), false);
-        softAssert.assertEquals(In1To10.in1To10(11, false), false);
-        softAssert.assertEquals(In1To10.in1To10(11, true), true);
-        softAssert.assertEquals(In1To10.in1To10(10, true), true);
-        softAssert.assertEquals(In1To10.in1To10(1, true), true);
-        softAssert.assertEquals(In1To10.in1To10(-1, true), true);
-        softAssert.assertEquals(In1To10.in1To10(0, true), true);
-        softAssert.assertEquals(In1To10.in1To10(3, true), false);
-        softAssert.assertEquals(In1To10.in1To10(9, true), false);
+        softAssert.assertTrue(In1To10.in1To10(1, false));
+        softAssert.assertTrue(In1To10.in1To10(5, false));
+        softAssert.assertTrue(In1To10.in1To10(10, false));
+        softAssert.assertFalse(In1To10.in1To10(0, false));
+        softAssert.assertFalse(In1To10.in1To10(-1, false));
+        softAssert.assertFalse(In1To10.in1To10(11, false));
+        softAssert.assertTrue(In1To10.in1To10(11, true));
+        softAssert.assertTrue(In1To10.in1To10(10, true));
+        softAssert.assertTrue(In1To10.in1To10(1, true));
+        softAssert.assertTrue(In1To10.in1To10(-1, true));
+        softAssert.assertTrue(In1To10.in1To10(0, true));
+        softAssert.assertFalse(In1To10.in1To10(3, true));
+        softAssert.assertFalse(In1To10.in1To10(9, true));
 
         // Then
         softAssert.assertAll();

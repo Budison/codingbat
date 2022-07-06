@@ -10,15 +10,15 @@ public class SpecialElevenTest {
         SoftAssert softAssert = new SoftAssert();
 
         // When
-        softAssert.assertEquals(SpecialEleven.specialEleven(11), true);
-        softAssert.assertEquals(SpecialEleven.specialEleven(22), true);
-        softAssert.assertEquals(SpecialEleven.specialEleven(12), true);
-        softAssert.assertEquals(SpecialEleven.specialEleven(10), false);
-        softAssert.assertEquals(SpecialEleven.specialEleven(21), false);
-        softAssert.assertEquals(SpecialEleven.specialEleven(24), false);
-        softAssert.assertEquals(SpecialEleven.specialEleven(2), false);
-        softAssert.assertEquals(SpecialEleven.specialEleven(1), true);
-        softAssert.assertEquals(SpecialEleven.specialEleven(0), true);
+        softAssert.assertTrue(SpecialEleven.specialEleven(11));
+        softAssert.assertTrue(SpecialEleven.specialEleven(22));
+        softAssert.assertTrue(SpecialEleven.specialEleven(12));
+        softAssert.assertFalse(SpecialEleven.specialEleven(10));
+        softAssert.assertFalse(SpecialEleven.specialEleven(21));
+        softAssert.assertFalse(SpecialEleven.specialEleven(24));
+        softAssert.assertFalse(SpecialEleven.specialEleven(2));
+        softAssert.assertTrue(SpecialEleven.specialEleven(1));
+        softAssert.assertTrue(SpecialEleven.specialEleven(0));
 
         // Then
         softAssert.assertAll();
