@@ -2,4 +2,4 @@
 
 This project contains solutions to all [.underline]#Java# coding tasks on https://codingbat.com/java[*CodingBat*].
 
-The all-encompassing function of each task is represented in it's own abstract class as a static method. As it should be, all tasks are provided with tests.
+The particular function of each task is represented in its abstract class as a static method. As it should be, all tasks are delivered with tests.
