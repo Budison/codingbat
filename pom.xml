@@ -21,8 +21,6 @@
         <maven.resources.encoding>${project.build.sourceEncoding}</maven.resources.encoding>
 
         <version.dependency.testng>7.6.0</version.dependency.testng>
-        <version.dependency.tinylog.api>2.4.1</version.dependency.tinylog.api>
-        <version.dependency.tinylog.impl>2.4.1</version.dependency.tinylog.impl>
 
         <version.plugin.maven.enforcer>3.0.0</version.plugin.maven.enforcer>
         <version.plugin.maven.jar>3.2.2</version.plugin.maven.jar>
@@ -40,16 +38,6 @@
             <artifactId>testng</artifactId>
             <version>${version.dependency.testng}</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.tinylog</groupId>
-            <artifactId>tinylog-api</artifactId>
-            <version>${version.dependency.tinylog.api}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.tinylog</groupId>
-            <artifactId>tinylog-impl</artifactId>
-            <version>${version.dependency.tinylog.impl}</version>
         </dependency>
     </dependencies>
 
