@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Love6Test {
+
     @Test
     public void testLove6() {
         // Given

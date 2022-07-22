@@ -1,6 +1,7 @@
 package com.github.budison.codingbat.logic1;
 
 abstract class CaughtSpeeding {
+
     static int caughtSpeeding(int speed, boolean isBirthday) {
         if (isBirthday) {
             speed -= 5;

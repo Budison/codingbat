@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Less20Test {
+
     @Test
     void testLess20() {
         // Given

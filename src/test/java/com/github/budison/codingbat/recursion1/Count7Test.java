@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class Count7Test {
+
     @Test
     void testCount7() {
         // Given

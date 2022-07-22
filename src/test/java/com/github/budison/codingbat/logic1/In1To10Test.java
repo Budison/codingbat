@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class In1To10Test {
+
     @Test
     void testIn1To10() {
         // Given

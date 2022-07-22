@@ -1,6 +1,7 @@
 package com.github.budison.codingbat.array1;
 
 abstract class Make2 {
+    
     static int[] make2(int[] a, int[] b) {
         int[] ret = new int[2];
         int count = 0;

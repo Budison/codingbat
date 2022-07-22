@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class BunnyEars2Test {
+    
     @Test
     void testBunnyEars2() {
         // Given

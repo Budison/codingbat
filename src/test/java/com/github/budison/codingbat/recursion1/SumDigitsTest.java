@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class SumDigitsTest {
+    
     @Test
     void testSumDigits() {
         // Given
