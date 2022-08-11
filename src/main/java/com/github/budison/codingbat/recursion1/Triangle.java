@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.recursion1;
 
-abstract class Triangle {
+class Triangle {
     
     static int triangle(int rows) {
         return switch (rows) {

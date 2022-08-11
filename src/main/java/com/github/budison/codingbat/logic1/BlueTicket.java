@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class BlueTicket {
+class BlueTicket {
 
     static int blueTicket(int a, int b, int c) {
         int ab = a + b;

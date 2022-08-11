@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic2;
 
-abstract class MakeBricks {
+class MakeBricks {
 
     static boolean makeBricks(int small, int big, int goal) {
         // Failure case #1: overall not enough bricks

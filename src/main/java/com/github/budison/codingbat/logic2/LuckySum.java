@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic2;
 
-abstract class LuckySum {
+class LuckySum {
 
     static int luckySum(int a, int b, int c) {
         if (a == 13) {

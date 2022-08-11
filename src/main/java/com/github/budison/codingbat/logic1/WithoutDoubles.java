@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class WithoutDoubles {
+class WithoutDoubles {
 
     static int withoutDoubles(int die1, int die2, boolean noDoubles) {
         if (noDoubles) {

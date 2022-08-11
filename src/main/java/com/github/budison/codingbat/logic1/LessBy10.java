@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class LessBy10 {
+class LessBy10 {
 
     static boolean lessBy10(int a, int b, int c) {
 

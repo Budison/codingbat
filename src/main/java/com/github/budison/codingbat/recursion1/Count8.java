@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.recursion1;
 
-abstract class Count8 {
+class Count8 {
     
     static int count8(int n) {
         int count = 0;

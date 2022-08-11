@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class LastDigit {
+class LastDigit {
 
     static boolean lastDigit(int a, int b, int c) {
         int aLast = a % 10;

@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class GreenTicket {
+class GreenTicket {
 
     static int greenTicket(int a, int b, int c) {
         if (a == b && b == c) {

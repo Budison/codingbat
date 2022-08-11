@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class ShareDigit {
+class ShareDigit {
 
     static boolean shareDigit(int a, int b) {
         int aLeft = a / 10;

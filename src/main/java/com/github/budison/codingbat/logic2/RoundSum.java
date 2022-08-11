@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic2;
 
-abstract class RoundSum {
+class RoundSum {
 
     static int roundSum(int a, int b, int c) {
         return round10(a) + round10(b) + round10(c);

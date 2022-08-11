@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic2;
 
-abstract class LoneSum {
+class LoneSum {
 
     static int loneSum(int a, int b, int c) {
         // Case #0:     a == b == c

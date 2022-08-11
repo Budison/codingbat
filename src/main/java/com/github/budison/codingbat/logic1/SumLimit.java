@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class SumLimit {
+class SumLimit {
 
     static int sumLimit(int a, int b) {
         int sum = a + b;

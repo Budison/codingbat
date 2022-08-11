@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class FizzString2 {
+class FizzString2 {
 
     static String fizzString2(int n) {
         StringBuilder ret = new StringBuilder();

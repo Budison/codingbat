@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.recursion1;
 
-abstract class Factorial {
+class Factorial {
     
     static int factorial(int n) {
         if (n == 1) {

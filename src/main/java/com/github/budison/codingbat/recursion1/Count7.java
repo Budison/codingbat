@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.recursion1;
 
-abstract class Count7 {
+class Count7 {
     
     static int count7(int n) {
         if (n / 10 == 0) {

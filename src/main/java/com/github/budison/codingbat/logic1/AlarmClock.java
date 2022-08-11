@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class AlarmClock {
+class AlarmClock {
 
     static String alarmClock(int day, boolean vacation) {
         if (!vacation && day != 0 && day != 6) {

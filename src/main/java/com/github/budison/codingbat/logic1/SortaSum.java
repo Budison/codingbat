@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class SortaSum {
+class SortaSum {
 
     static int sortaSum(int a, int b) {
         int sum = a + b;

@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic2;
 
-abstract class NoTeenSum {
+class NoTeenSum {
 
     static int noTeenSum(int a, int b, int c) {
         return fixTeen(a) + fixTeen(b) + fixTeen(c);

@@ -1,6 +1,6 @@
 package com.github.budison.codingbat.logic1;
 
-abstract class TeaParty {
+class TeaParty {
 
     static int teaParty(int tea, int candy) {
         if (tea < 5 || candy < 5) {
