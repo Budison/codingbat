@@ -9,8 +9,9 @@
 /target
 
 # All files and directories which names start with . (dot), 
-# except .git, .gitattributes and .gitignore:
+# except .git, .gitattributes, .gitignore and .circleci:
 .*
 !/.git
 !.gitattributes
 !.gitignore
+!.circleci
